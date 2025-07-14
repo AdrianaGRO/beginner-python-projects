@@ -24,10 +24,10 @@ withdrawal_amount = float(input("Enter withdrawal amount:$ "))
 if withdrawal_amount > balance:
     print("Insufficient funds in your account!")
 elif withdrawal_amount <= 0:
-    print("Invalid amount!")
+    print("Invalid amount! Please enter a positive amount greater than zero.")
 else:
     new_balance = balance - withdrawal_amount
-    print(f"Transaction successful!\n Your new balance is {new_balance:.2f}")
+    print(f"Transaction successful!\nYour new balance is {new_balance:.2f}")
     print(f"Data type for new balance is {type(new_balance)}")
 
 
