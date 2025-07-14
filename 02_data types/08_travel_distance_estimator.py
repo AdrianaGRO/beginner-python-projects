@@ -7,7 +7,7 @@
 
 print("Welcome to Travel Distance Estimator")
 distance = float(input("Enter the distance in kilometers: "))
-speed = float(input(" Enter the speed in kilometers/hour: "))
+speed = float(input("Enter the speed in kilometers/hour: "))
 time = distance / speed
 print(f"The time for the distance of {distance:.0f} km and with a speed of {speed:.0f} km/h the estimated time is {time:.2f} hours")
-print(f"The data type for time is {type(time)}")
+print(f"The data type for time is: {type(time)}")

@@ -2,6 +2,26 @@
 
 This folder contains beginner-friendly Python practice projects designed to build foundational skills. Each project focuses on core Python concepts such as input/output, string manipulation, variables, and simple operations.
 
+
+## Key Python Concepts Covered
+
+- **Input/Output**: Using `input()` and `print()` functions
+- **Variables**: Storing and manipulating data
+- **String Manipulation**: Working with text, concatenation, and formatting
+- **Basic Operations**: Simple arithmetic and string operations
+- **Data Types**: Introduction to strings, integers, and basic type conversion
+
+## How to Run These Projects
+
+- Each project is a standalone Python script.
+- Run the scripts using Python 3 in your terminal or within PyCharm.
+- Example command:  
+  ```bash
+  python3 01_personalized_greeting.py
+  ```
+- Make sure you have Python 3 installed on your system.
+- Navigate to the project folder before running the scripts.
+
 ## Projects Overview
 
 ### 1. Personalized Greeting
@@ -36,22 +56,3 @@ Asks the user for their first and last names separately, extracts their initials
 Asks a yes/no question to the user, stores the answer, and prints a response based on the answer.
 
 ---
-
-## Key Python Concepts Covered
-
-- **Input/Output**: Using `input()` and `print()` functions
-- **Variables**: Storing and manipulating data
-- **String Manipulation**: Working with text, concatenation, and formatting
-- **Basic Operations**: Simple arithmetic and string operations
-- **Data Types**: Introduction to strings, integers, and basic type conversion
-
-## How to Run These Projects
-
-- Each project is a standalone Python script.
-- Run the scripts using Python 3 in your terminal or within PyCharm.
-- Example command:  
-  ```bash
-  python3 01_personalized_greeting.py
-  ```
-- Make sure you have Python 3 installed on your system.
-- Navigate to the project folder before running the scripts.
