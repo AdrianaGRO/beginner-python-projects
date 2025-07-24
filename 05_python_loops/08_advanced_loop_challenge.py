@@ -64,6 +64,3 @@ if choice == 'B':
             spaces = " " * (3 - mirror_row)
             stars = "*" * (2 * mirror_row - 1)
             print(spaces + stars)
-
-
-        

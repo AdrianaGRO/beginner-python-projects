@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="444d6505-fc80-4bc8-87ec-f38210e0a2ac" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/begginer-python-projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/begginer-python-projects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_python_functions_karel/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_python_loops/08_advanced_loop_challenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/05_python_loops/08_advanced_loop_challenge.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +34,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.01_function_creator.executor": "Run",
+    "Python.02_while_loop_navigator.executor": "Run",
     "Python.03_tresure_island.executor": "Run",
     "Python.04_atm_withdrawal_simulator.executor": "Run",
+    "Python.04_treasure_chest_randomizer.executor": "Run",
     "Python.05_password_strenght_checker.executor": "Run",
+    "Python.05_random_password_generator.executor": "Run",
+    "Python.05_shopping_cart_total.executor": "Run",
     "Python.06_leap_year_validator.executor": "Run",
+    "Python.06_name_length_processor.executor": "Run",
+    "Python.06_quiz_question_picker.executor": "Run",
+    "Python.07_grade_letter_converter.executor": "Run",
+    "Python.07_name_team_selector.executor": "Run",
     "Python.07_quiz_score.executor": "Run",
+    "Python.08_advanced_loop_challenge.executor": "Run",
     "Python.08_number_guessing_hint.executor": "Run",
+    "Python.10_calculator_with_history.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main"
