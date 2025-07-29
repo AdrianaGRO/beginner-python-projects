@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="444d6505-fc80-4bc8-87ec-f38210e0a2ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/07_capstone_project_HANGMAN/hangman_art.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_capstone_project_HANGMAN/hangman_words.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_python_functions_karel/DAILY_SUMMARY_15_07_2025.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_data types/01_grocery_budget_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_data types/01_grocery_budget_tracker.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2zd4pN3tkv9jAsP6wibDZ85y7iF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,24 +37,37 @@
     "Python.02_while_loop_navigator.executor": "Run",
     "Python.03_tresure_island.executor": "Run",
     "Python.04_atm_withdrawal_simulator.executor": "Run",
+    "Python.04_even_odd_checker.executor": "Run",
     "Python.04_treasure_chest_randomizer.executor": "Run",
+    "Python.05_max_of_three.executor": "Run",
     "Python.05_password_strenght_checker.executor": "Run",
     "Python.05_random_password_generator.executor": "Run",
     "Python.05_shopping_cart_total.executor": "Run",
     "Python.06_leap_year_validator.executor": "Run",
     "Python.06_name_length_processor.executor": "Run",
     "Python.06_quiz_question_picker.executor": "Run",
+    "Python.06_sum_list.executor": "Run",
     "Python.07_grade_letter_converter.executor": "Run",
     "Python.07_name_team_selector.executor": "Run",
     "Python.07_quiz_score.executor": "Run",
+    "Python.07_secret_auction.executor": "Run",
+    "Python.07_tip_calculator.executor": "Run",
     "Python.08_advanced_loop_challenge.executor": "Run",
+    "Python.08_grading_program.executor": "Run",
     "Python.08_number_guessing_hint.executor": "Run",
+    "Python.09_countdown_timer.executor": "Run",
     "Python.10_calculator_with_history.executor": "Run",
+    "Python.10_password_generator.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/09_dictionaries_nesting" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
