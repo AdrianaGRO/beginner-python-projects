@@ -1,4 +1,6 @@
-# 13_debugging Projects
+# 13_debugging 
+
+Projects
 
 This folder contains a series of beginner-friendly Python debugging exercises. Each file presents a common bug or logical error for you to spot and fix. The goal is to help you develop strong debugging skills and confidence in troubleshooting Python code.
 
