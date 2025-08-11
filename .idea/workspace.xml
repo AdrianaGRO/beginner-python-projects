@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="444d6505-fc80-4bc8-87ec-f38210e0a2ac" name="Changes" comment="" />
+    <list default="true" id="444d6505-fc80-4bc8-87ec-f38210e0a2ac" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_ number_guessing_game_project/01_prime_number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_ number_guessing_game_project/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_ number_guessing_game_project/art.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_ number_guessing_game_project/guess_the_number.drawio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_ number_guessing_game_project/guess_the_number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_capstone_project_vending_machine/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/16_capstone_project_vending_machine/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_capstone_project_vending_machine/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/16_capstone_project_vending_machine/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -28,50 +40,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Doctests in 01_prime_number.executor": "Run",
-    "Python.01_country_capitals.executor": "Run",
-    "Python.01_function_creator.executor": "Run",
-    "Python.02_employee_performance.executor": "Run",
-    "Python.02_while_loop_navigator.executor": "Run",
-    "Python.03_product_review.executor": "Run",
-    "Python.03_tresure_island.executor": "Run",
-    "Python.04_atm_withdrawal_simulator.executor": "Run",
-    "Python.04_even_odd_checker.executor": "Run",
-    "Python.04_student_grades.executor": "Run",
-    "Python.04_treasure_chest_randomizer.executor": "Run",
-    "Python.05_age_group_classifier.executor": "Run",
-    "Python.05_max_of_three.executor": "Run",
-    "Python.05_password_strenght_checker.executor": "Run",
-    "Python.05_random_password_generator.executor": "Run",
-    "Python.05_shopping_cart_total.executor": "Run",
-    "Python.06_city_information.executor": "Run",
-    "Python.06_leap_year_validator.executor": "Run",
-    "Python.06_name_length_processor.executor": "Run",
-    "Python.06_quiz_question_picker.executor": "Run",
-    "Python.06_sum_list.executor": "Run",
-    "Python.07_combined_string_formatter.executor": "Run",
-    "Python.07_grade_letter_converter.executor": "Run",
-    "Python.07_name_team_selector.executor": "Run",
-    "Python.07_quiz_score.executor": "Run",
-    "Python.07_secret_auction.executor": "Run",
-    "Python.07_tip_calculator.executor": "Run",
-    "Python.08_advanced_loop_challenge.executor": "Run",
-    "Python.08_grading_program.executor": "Run",
-    "Python.08_number_guessing_hint.executor": "Run",
-    "Python.09_countdown_timer.executor": "Run",
-    "Python.09_grading_program.executor": "Run",
-    "Python.10_calculator_with_history.executor": "Run",
-    "Python.10_password_generator.executor": "Run",
-    "Python.10_temperature_converter.executor": "Run",
-    "Python.blackjack.executor": "Run",
-    "Python.guess_the_number.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Doctests in 01_prime_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_country_capitals.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_function_creator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_employee_performance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_while_loop_navigator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_product_review.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_tresure_island.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_atm_withdrawal_simulator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_even_odd_checker.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_index_error.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_student_grades.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_treasure_chest_randomizer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_age_group_classifier.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_max_of_three.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_password_strenght_checker.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_random_password_generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_shopping_cart_total.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_unexpected_behavior.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_city_information.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_fizz.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_leap_year_validator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_name_length_processor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_quiz_question_picker.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_sum_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_combined_string_formatter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_grade_letter_converter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_name_team_selector.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_quiz_score.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_secret_auction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_tip_calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08_advanced_loop_challenge.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08_grading_program.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08_number_guessing_hint.executor&quot;: &quot;Run&quot;,
+    &quot;Python.09_countdown_timer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.09_grading_program.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10_calculator_with_history.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10_password_generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10_prime_checker.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10_temperature_converter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.blackjack.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.guess_the_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />

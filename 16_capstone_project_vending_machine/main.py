@@ -23,7 +23,49 @@ def create_catalog():
                 print(f"{key}. {product.title()} - {price:.2f} Lei")
 
 
+def admin_menu():
+    print("*********************************************")
+    print("===========ADMIN MENU========================")
+    print("*********************************************")
+    pin_admin()
+    choice_admin = input("Please select the choice to run it:\n"
+                             "1. Report\n"
+                             "2. Off \n"
+                             "3. Back to the main menu\n").lower()
+    while choice_admin not in ['report', '1', 'off', '2', 'main', '3']:
+        print("Invalid option. Please try again.")
+        choice_admin = input("Please select the choice to run it:\n"
+                             "1. Report\n"
+                             "2. Off \n"
+                             "3. Back to the main menu\n").lower()
+    if choice_admin == 'report' or choice_admin == '1':
+        print_report()
+    elif choice_admin == "off" or choice_admin == '2':
+        return shutting_down()
+    elif choice_admin == 'main' or choice_admin == '3':
+        main()
 
+
+def pin_admin():
+    attempts = 0
+    pin = '1234'
+    while attempts < 3:
+        ask_pin = input('Please enter the pin to access the admin menu:\n')
+        attempts += 1
+        if pin == ask_pin:
+            print("Login successful")
+            break
+        else:
+            print("Incorrect password, please try again")
+    else:
+        print("You tried 3 times, you are locked up.")
+        main()
+        return False
+
+
+def shutting_down():
+    print("Machine shutting down... ")
+    return "off"
 
 
 def print_report():
@@ -64,16 +106,21 @@ def prepare_order(product):
 def ask_for_money():
     cash = 0
     for bill in billnotes:
-        cash += int(input(f"How many notes {engine.plural(bill)}? ")) * billnotes[bill]
-
-    # for coin in coins:
-    #     cash +=int(input(f"How many coins {engine.plural(coin)}? ")) * coins[coin]
+        while True:
+            try:
+                count_bills = int(input(f"How many notes {engine.plural(bill)}? "))
+                if count_bills < 0:
+                    print("Invalid input. Please enter a positive number.")
+                    continue
+                cash += count_bills * billnotes[bill]
+                break
+            except ValueError:
+                print("Invalid input. Please enter a number.")
 
     return cash
 
 def check_money(product, money):
     price = product['price']
-
     if money < price:
         print(f"Sorry that's not enough money. Money refunded.")
         return False
@@ -102,12 +149,10 @@ def main():
         create_catalog()
         print("Please select your product by entering it's number.")
         user_choice = input(f"What you would like?: ")
-        if user_choice == "off":
-            print("Machine shutting down... ")
-            break
-
-        elif user_choice == 'report':
-            print_report()
+        if user_choice == "admin":
+            if admin_menu() == "off":
+                break
+        
 
         elif user_choice in INVENTORY:
             product = INVENTORY[user_choice]
