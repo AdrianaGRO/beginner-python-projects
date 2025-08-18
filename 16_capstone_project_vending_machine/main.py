@@ -56,7 +56,7 @@ def pin_admin():
             print("Login successful")
             break
         else:
-            print("Incorrect password, please try again")
+            print("Incorrect pin, please try again")
     else:
         print("You tried 3 times, you are locked up.")
         main()

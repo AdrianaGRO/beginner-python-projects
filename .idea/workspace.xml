@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="444d6505-fc80-4bc8-87ec-f38210e0a2ac" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_ number_guessing_game_project/01_prime_number.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_ number_guessing_game_project/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_ number_guessing_game_project/art.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_ number_guessing_game_project/guess_the_number.drawio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_ number_guessing_game_project/guess_the_number.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_capstone_project_vending_machine/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/16_capstone_project_vending_machine/data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/16_capstone_project_vending_machine/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/16_capstone_project_vending_machine/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
